@@ -42,27 +42,3 @@ function scrollActive() {
     }
   })
 }
-
-window.addEventListener('scroll', scrollActive)
-
-const pages = document.querySelectorAll('.page')
-const resume = document.querySelector('.resume')
-
-function resumeActive() {
-  const scrollY = window.pageXOffset
-
-  pages.forEach((page) => {
-    const sectionHeight = page.offsetHeight
-    const sectionTop = page.offsetTop
-
-    let sectionId = page.getAttribute('id')
-
-    if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-      document.querySelector('.resume_tabs a[href *=' + sectionId + ']').classList.add('current')
-    } else {
-      document.querySelector('.resume_tabs a[href *=' + sectionId + ']').classList.remove('current')
-    }
-  })
-}
-
-window.addEventListener('scroll', resumeActive)
