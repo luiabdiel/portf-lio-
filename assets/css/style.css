@@ -714,8 +714,8 @@ textarea:focus {
   box-shadow: 0 0 5px #a8bbe0;
 }
 
-.contact_contect .btn {
-  width: 185px;
+.contact_content .btn {
+  width: 203px;
   margin-top: 20px;
   display: flex;
   align-items: center;
