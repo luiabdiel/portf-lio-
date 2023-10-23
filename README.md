@@ -2,6 +2,8 @@
 
 Este repositório contém o projeto Portfolio desenvolvido como parte do curso de Análise e Desenvolvimento de Sistemas na disciplina de Fundamentos da Programação Web. O projeto é uma representação digital do seu portfólio pessoal e foi criado usando apenas HTML, CSS e JavaScript.
 
+![Logo do Markdown](./assets/image/web.png)
+
 O deploy do projeto foi realizado na plataforma Vercel para torná-lo acessível online.
 
 ### **Descrição do Projeto**
